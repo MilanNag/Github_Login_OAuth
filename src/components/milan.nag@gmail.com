@@ -137,7 +137,7 @@ const Wrapper = Styled.section`
           text-decoration: none;
           color: #fff;
           text-transform: uppercase;
-          cursor: default;
+          cursor: pointer;
           display: flex;
           align-items: center;          
           height: 40px;
