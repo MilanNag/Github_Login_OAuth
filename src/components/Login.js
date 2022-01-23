@@ -43,7 +43,7 @@ export default function Login() {
         .catch(error => {
           setData({
             isLoading: false,
-            errorMessage: "Sorry! Login failed"
+            errorMessage: "Login failed"
           });
         });
     }
@@ -58,7 +58,7 @@ export default function Login() {
       <section className="container">
         <div>
           <h1>Welcome</h1>
-          <span>Super amazing app</span>
+          <span>React App with Github Login</span>
           <span>{data.errorMessage}</span>
           <div className="login-container">
             {data.isLoading ? (
